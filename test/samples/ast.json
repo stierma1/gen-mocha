@@ -1,0 +1,267 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "id": {
+        "type": "Identifier",
+        "name": "Sample"
+      },
+      "params": [
+        {
+          "type": "Identifier",
+          "name": "a"
+        },
+        {
+          "type": "Identifier",
+          "name": "b"
+        },
+        {
+          "type": "Identifier",
+          "name": "c"
+        }
+      ],
+      "defaults": [],
+      "body": {
+        "type": "BlockStatement",
+        "body": []
+      },
+      "generator": false,
+      "expression": false
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "AssignmentExpression",
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "name": "Sample"
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "prototype"
+          }
+        },
+        "right": {
+          "type": "ObjectExpression",
+          "properties": [
+            {
+              "type": "Property",
+              "key": {
+                "type": "Identifier",
+                "name": "foo"
+              },
+              "computed": false,
+              "value": {
+                "type": "FunctionExpression",
+                "id": null,
+                "params": [],
+                "defaults": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "body": []
+                },
+                "generator": false,
+                "expression": false
+              },
+              "kind": "init",
+              "method": false,
+              "shorthand": false
+            },
+            {
+              "type": "Property",
+              "key": {
+                "type": "Literal",
+                "value": "bar",
+                "raw": "\"bar\""
+              },
+              "computed": false,
+              "value": {
+                "type": "FunctionExpression",
+                "id": null,
+                "params": [],
+                "defaults": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "body": []
+                },
+                "generator": false,
+                "expression": false
+              },
+              "kind": "init",
+              "method": false,
+              "shorthand": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "AssignmentExpression",
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "computed": false,
+          "object": {
+            "type": "MemberExpression",
+            "computed": false,
+            "object": {
+              "type": "Identifier",
+              "name": "Sample"
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "prototype"
+            }
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "baz"
+          }
+        },
+        "right": {
+          "type": "FunctionExpression",
+          "id": null,
+          "params": [],
+          "defaults": [],
+          "body": {
+            "type": "BlockStatement",
+            "body": []
+          },
+          "generator": false,
+          "expression": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "AssignmentExpression",
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "name": "Sample"
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "static"
+          }
+        },
+        "right": {
+          "type": "FunctionExpression",
+          "id": null,
+          "params": [],
+          "defaults": [],
+          "body": {
+            "type": "BlockStatement",
+            "body": []
+          },
+          "generator": false,
+          "expression": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "AssignmentExpression",
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "name": "module"
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "exports"
+          }
+        },
+        "right": {
+          "type": "Identifier",
+          "name": "Sample"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "AssignmentExpression",
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "computed": false,
+          "object": {
+            "type": "MemberExpression",
+            "computed": false,
+            "object": {
+              "type": "Identifier",
+              "name": "module"
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "exports"
+            }
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "static2"
+          }
+        },
+        "right": {
+          "type": "FunctionExpression",
+          "id": null,
+          "params": [],
+          "defaults": [],
+          "body": {
+            "type": "BlockStatement",
+            "body": []
+          },
+          "generator": false,
+          "expression": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "AssignmentExpression",
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "name": "exports"
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "static3"
+          }
+        },
+        "right": {
+          "type": "FunctionExpression",
+          "id": null,
+          "params": [],
+          "defaults": [],
+          "body": {
+            "type": "BlockStatement",
+            "body": []
+          },
+          "generator": false,
+          "expression": false
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+
+describe("#{identifier}", function(){~lb}
+
+    beforeEach(function(){~lb}{~rb});
+    afterEach(function(){~lb}{~rb});
+
+    describe("constructor", function(){~lb}
+        beforeEach(function(){~lb}{~rb});
+        afterEach(function(){~lb}{~rb});
+
+    {~rb});
+    {#functions}
+    describe("{.}", function(){~lb}
+        beforeEach(function(){~lb}{~rb});
+        afterEach(function(){~lb}{~rb});
+
+    {~rb});
+    {/functions}
+{~rb});

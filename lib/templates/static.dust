@@ -1,0 +1,8 @@
+
+
+describe("#{identifier}", function(){~lb}
+
+    beforeEach(function(){~lb}{~rb});
+    afterEach(function(){~lb}{~rb});
+
+{~rb});
