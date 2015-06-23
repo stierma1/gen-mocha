@@ -1,0 +1,4 @@
+
+MyClass.prototype = {
+  "myFunction": function(){}
+}

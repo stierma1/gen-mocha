@@ -9,7 +9,6 @@ var fs = require("fs");
 commander.version(require('../package.json').version)
   .option("-i, --inputFile [filePath]", "Input file relative to cwd")
   .option("-o, --outputFile [filePath]", "Output file relative to cwd")
-  //.option("-w, --overwrite", "Overwrite existing files")
   .parse(process.argv)
 
 if(!commander.inputFile){

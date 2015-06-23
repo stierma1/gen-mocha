@@ -23,7 +23,7 @@ Sample.static = function(){
 module.exports = Sample;
 
 module.exports.static2 = function(){
-  
+
 };
 
 exports.static3 = function(){
@@ -36,3 +36,7 @@ module.exports = {
   },
   "static5": 5
 }
+
+function static5(){}
+
+module.exports = static5;

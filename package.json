@@ -1,6 +1,6 @@
 {
   "name": "gen-mocha",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate node js unit tests",
   "bin": {
     "gen-mocha": "bin/gen-mocha.js"

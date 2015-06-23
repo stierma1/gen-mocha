@@ -1,0 +1,2 @@
+
+exports.myFunction = () => 2;
