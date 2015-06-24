@@ -31,7 +31,7 @@ exports.static3 = function(){
 }
 
 module.exports = {
-  "static4": function(){
+  static4: function(){
 
   },
   "static5": 5
